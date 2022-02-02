@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="4" time="0.100" timestamp="2022-02-02T17:42:08.662277" hostname="myCOMPI"><testcase classname="test_First" name="test_1" time="0.001" /><testcase classname="test_First" name="test_2" time="0.001"><failure message="AssertionError: Title does not match&#10;assert 'Vinay' is 'Vinay is a student'">def test_2():
+        name = "Vinay"
+        title = "Vinay is a student"
+&gt;       assert name is title , "Title does not match"
+E       AssertionError: Title does not match
+E       assert 'Vinay' is 'Vinay is a student'
+
+test_First.py:12: AssertionError</failure></testcase><testcase classname="test_second" name="test_method1" time="0.001"><failure message="assert 5 == 10">def test_method1():
+        x = 5
+        y = 10
+&gt;       assert x == y
+E       assert 5 == 10
+
+test_second.py:8: AssertionError</failure></testcase><testcase classname="test_second" name="test_method2" time="0.001" /></testsuite></testsuites>
